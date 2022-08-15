@@ -11,13 +11,15 @@
 <br>
 
 ## O que significa CSS
-> Cascading Stylesheet
+<br>
+
+> Cascading Style Sheet
 
 > Código para criar estilos no HTML
 
 > HTML é uma estrutura, CSS é a beleza
 
-> NÃO é uma linguagem de programação
+> <strong>NÃO</strong> é uma linguagem de programação
 
 > É uma linguagem de Style Sheet (Folha de Estilo)
 
