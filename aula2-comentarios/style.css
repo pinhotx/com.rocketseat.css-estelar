@@ -1,0 +1,32 @@
+/*
+    Comentários
+        - Não irã afetar seu código
+        - Ajuda a lembrar blocos de código
+        - Dicas de leitura do código
+        - Ajuda outros a entenderem
+        
+
+        || Nunca esqueça de fechar um comentário ||
+
+    Comentários começam com /* e terminam com */
+
+/* Formatação Básica do Body */
+body{
+    font:1em/150% Helvetica, Arial, sans-serif;
+    padding: 1em;
+    margin: 0 auto;
+    max-width: 33em;
+}
+
+/* Da Desabilitar um código também com comentários */
+
+/*
+    h1{
+        color:blue;
+    }
+*/
+
+/* Título Azul */
+h1{
+    color: aqua;
+}
