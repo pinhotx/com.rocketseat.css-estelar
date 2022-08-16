@@ -1,0 +1,20 @@
+/*
+    Anatomia 
+    Selector
+        - Declaration
+            - property: value
+
+    Selector {
+    
+        property: value;
+    }
+
+*/
+
+
+h1{
+    color: red;
+    font-size: 60px;
+    background: gray;
+}
+
