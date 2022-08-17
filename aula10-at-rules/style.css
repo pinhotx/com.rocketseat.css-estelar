@@ -1,0 +1,36 @@
+/*
+    ? At Rules
+        * Muda o comportamento do CSS
+        * Começa com o sinal de @ seguido do identificador e valor
+
+    ? Exemplos
+        * @import
+            ! incluir CSS externo
+
+        * @media
+            ! regras adicionais para dispositivos
+        
+        * @font-face
+            ! fontes externas
+        
+        * @keyframes
+            ! Quadros para arimação 
+
+
+*/
+
+@import url("https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.css");
+
+@media (min-width: 500px){
+    /* regras */
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Serif', serif;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif:opsz,wght@8..144,700&display=swap');
+}
+
+@keyframes nomedaanimacao{
+    /* regras da animação */
+}
