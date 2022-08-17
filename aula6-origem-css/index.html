@@ -1,0 +1,62 @@
+<!--
+    Formas de adicionar CSS no html
+    
+    * inline -> atributo style
+        <h1 style="color: blue;">Título</h1>
+
+    * tag -> <style>
+        <head>
+            ...
+            <style>
+                strong{
+                    color: red;
+                }
+            </style>
+        </head>
+
+    * arquivo css interno -> <link>
+        <head>
+            <link rel="stylesheet" href="style.css">
+        </head>
+
+    * arquivo css externo -> @import (Importação mais lenta)
+        * arquivo.css
+            @import 'https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'
+        
+        * <style> (Não recomendado)
+            @import 'https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'
+          </style>
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        /*
+            Import na tag style (não recomendado)
+            @import 'https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'
+        */
+        /* Tag style */
+        strong{
+            color: red;
+        }
+    </style>
+
+    <!-- Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- CSS inline -->
+    <h1 style="color: blue;">Título
+        <strong>alou</strong>
+    </h1>
+</body>
+</html>
