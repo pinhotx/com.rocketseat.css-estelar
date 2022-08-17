@@ -1,0 +1,53 @@
+/*
+    ? Shorthand
+        * junção de propriedades
+        * resumido
+        * legível
+    
+    ? Detalhes
+        * Não irá considerar propriedades anteriores
+        * valores não especificados irão assumir o padrão
+        * A ordem de escrita das propriedades geralmente não influencia
+            ! Podem haver excessões quando a shorthand tem muitas propriedades
+    
+    ? Aceitam Shorthand
+        * animation, 
+        * background, 
+        * border, 
+        * border, 
+        * columns, 
+        * font, 
+        * grid, 
+        * margin, 
+        * padding, 
+        * transition, 
+        * etc
+    
+    ! https://developer.mozilla.org/pt-BR/docs/Web/CSS/Shorthand_properties
+*/
+
+body{
+/*
+    * Propriedades do Background */
+    
+    background-color: #000;
+    background-image: url("./big-pine-tree-and-forest.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+
+    /* Shorthand do background */
+    background: #000 url("./big-pine-tree-and-forest.jpg") no-repeat left top;
+
+    /*
+    * Propriedades de fonte */
+    
+    font-size: .8em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.2;
+
+    /* Shorthand das fontes */
+    font: italic bold .8em/1.2 'Times New Roman', Times, serif;
+
+}
