@@ -1,0 +1,16 @@
+/*
+    ? Cuidado com erros de escrita
+        * Espaços entre atributos
+        * Ponto e vírgula (;)
+        * Dois pontos entre chave e valor (:)
+            ! atributo: valor;
+*/
+
+p {
+    /* 
+    !margin: 0auto*/
+    margin: 0 auto;
+    /*
+    !padding -left: 15px*/
+    padding-left: 15px;
+}
