@@ -1,0 +1,25 @@
+
+body{
+    color:#6564DB;
+    font: bold 1.2em 'Times New Roman', Times, serif;
+    background-color: #101D42;
+}
+
+ul{
+    list-style-type: none;
+    background-color: #0D1317;
+    border: 2px dashed #89D2DC;
+}
+
+h1, h3, .link-class a{
+    color: #89D2DC;
+}
+
+p em{
+    color: #232ED1;
+}
+
+
+.link-class{
+    color: gray;
+}
