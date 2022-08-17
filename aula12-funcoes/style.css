@@ -1,0 +1,13 @@
+/*
+    ? Funções
+        * nome seguido de parenteses
+        * recebe argumentos
+*/
+
+body{
+    
+    background-image: url("./big-pine-tree-and-forest.jpg");
+    color: rgb(200, 100, 200);
+    width: calc(100%-200px);
+
+}
