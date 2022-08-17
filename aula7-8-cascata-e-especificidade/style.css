@@ -1,4 +1,5 @@
 /*
+Aula 7 --------
     ? A cascata 
         * Influencia na escolha de regras de estilo que o navegador fará uso
         * Estilo lido de cima para baixo 
@@ -11,10 +12,6 @@
         * inline > tag <style> > <link>
             ! Inline tem mais priodade que a tag style
             ! <style> que tem mais prioridade que a tag link
-
-    ? Especificidade
-        * É um cálculo matemático onde 
-            ! Seletores e origem do estilo possuem pesos diferentes a serem considerados
 
 */
 
