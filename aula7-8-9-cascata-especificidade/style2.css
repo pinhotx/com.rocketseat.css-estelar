@@ -18,16 +18,25 @@ Aula 8 -------------
             ! ID Selector ( id="email", #email )
         * 1000.  
             ! Inline ( ...style="color:red")
-
-        
-
-
+    
+  
 */
 
 /* Universal Selector */
 *{
     color:blueviolet;
     font-weight: lighter;
+}
+
+/* Aula 9 --------------
+    ? Regra Important
+        * Toma a prioridade do CSS
+            ! Má prática de programação
+            ! Usar em ultimo caso
+                * Usar quando não conseguir aplicar estilo por conta de libs externas      
+*/
+h1{
+    color: purple !important;
 }
 
 /* ID Selector */
